@@ -1,0 +1,50 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+server
+scripts/*
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+
+# Dependency directories
+vendor/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Firebase service account credentials (NEVER commit these!)
+itc--2026-firebase-adminsdk-fbsvc-674f7d072e.json
+*.pem
+*.key
+
+# Logs
+*.log
+logs/
+
+# Build output
+bin/
+dist/
+build/
+
+# Temporary files
+tmp/
+temp/
